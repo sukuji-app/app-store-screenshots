@@ -1,4 +1,4 @@
-# sukuji: App Store screenshots from your coding agent
+# App Store Screenshots (sukuji)
 
 Ask your agent **"Make App Store screenshots for this app"**. It grabs your app's real screens, and sukuji designs a finished set of 5: headlines, layout and AI-drawn artwork made for your app. About 2 minutes later, the set is saved in your project.
 
@@ -38,7 +38,7 @@ export SUKUJI_KEY=your-key
 
 ## What is sent
 
-Only the 1 to 3 screen images you choose, the app name and a one-line description. **Your code is never sent.** The skill is two plain files you can read: [`SKILL.md`](skills/sukuji/SKILL.md) (instructions for the agent) and [`sukuji.py`](skills/sukuji/sukuji.py) (uploads the screens to https://sukuji.com and saves the result; standard library only).
+Only the 1 to 3 screen images you choose, the app name and a one-line description. **Your code is never sent.** The skill is two plain files you can read: [`SKILL.md`](skills/app-store-screenshots/SKILL.md) (instructions for the agent) and [`sukuji.py`](skills/app-store-screenshots/sukuji.py) (uploads the screens to https://sukuji.com and saves the result; standard library only).
 
 ## MCP
 
